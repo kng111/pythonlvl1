@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #3498db; /* Обычный фон */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон блока */
+    padding: 40px; /* Увеличили внутренний отступ */
+    border-radius: 15px; /* Закруглили углы блока */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 36px; /* Увеличили размер текста */
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px; /* Закруглили углы кнопки */
+    border: none; /* Убрали рамку */
+    background-color: #e74c3c; /* Изменили цвет фона кнопки */
+    color: #fff; /* Изменили цвет текста кнопки */
+}
+
+button:hover {
+    background-color: #c0392b; /* Изменили цвет фона кнопки при наведении */
+}
